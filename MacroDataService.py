@@ -54,3 +54,9 @@ data_CPI_AVE_GD = Data('CC_CPI_NH','CC_CPI_NH_AVE','Giáo dục',date,cpi_catego
 data_CPI_AVE_VHGTDL = Data('CC_CPI_NH','CC_CPI_NH_AVE','Văn hóa giái trí và du lịch',date,cpi_categories_ave()['CPI_AVE_VHGTDL'])
 data_CPI_AVE_DDVDVK = Data('CC_CPI_NH','CC_CPI_NH_AVE','Đồ dùng và dịch vụ khác',date,cpi_categories_ave()['CPI_AVE_DDVDVK'])
 
+
+list_data = [data_TT_IIP_TOAN_NGANH,data_TT_IIP_NGANH_CNCBCT,data_TMBL_TT,data_TMBL_BLHH,data_TMBL_DV,data_TMBL_DLLH,data_TMBL_TTLTLP,data_TT_GDP,data_CPI_TT_MOM,
+             data_CPI_TT_YOY,data_CPI_TT_AVE,data_FDI_GN,data_FDI_DK,data_TTLK_FDI_GN,data_TTLK_FDI_DK,data_XNK_XK,data_XNK_NK,
+             data_CPI_YOY_HADVAU,data_CPI_YOY_DUVTL,data_CPI_YOY_MMGDMN,data_CPI_YOY_NNVLXD,data_CPI_YOY_TBDDGD,data_CPI_YOY_TVDVYT,data_CPI_YOY_GT,data_CPI_YOY_BCVT,
+             data_CPI_YOY_GD,data_CPI_YOY_VHGTDL,data_CPI_YOY_DDVDVK,data_CPI_AVE_HADVAU,data_CPI_AVE_DUVTL,data_CPI_AVE_MMGDMN,data_CPI_AVE_NNVLXD,
+             data_CPI_AVE_TBDDGD,data_CPI_AVE_TVDVYT,data_CPI_AVE_GT,data_CPI_AVE_BCVT,data_CPI_AVE_GD,data_CPI_AVE_VHGTDL,data_CPI_AVE_DDVDVK]
