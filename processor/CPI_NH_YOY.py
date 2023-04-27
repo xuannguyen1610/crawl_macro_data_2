@@ -17,5 +17,3 @@ def cpi_categories_yoy():
 
     return cpi_categories_yoy
 
-
-

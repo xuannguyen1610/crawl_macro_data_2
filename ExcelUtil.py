@@ -18,7 +18,3 @@ def get_range_from_sheet(sheet,range):
         for cell in row:
             results.append(cell.value)
     return results
-
-
-
-

@@ -21,13 +21,13 @@ value_CPI_TT_MOM = CPI.get_value_CPI_TT_MOM()
 value_CPI_TT_AVE = CPI.get_value_CPI_TT_AVE()
 value_TMBL_TTLTLP = TMLTLP.get_value_TMBL_TTLTLP()
 
-IS_DEBUG = True
+IS_DEBUG = False
 if IS_DEBUG:
 
     print(f"TT_IIP_TOAN_NGANH: {value_TT_IIP_TOAN_NGANH}")
     print(f"TT_IIP_NGANH_CNCBCT:{value_TT_IIP_NGANH_CNCBCT}")
     print(f"TT_GDP:{value_TT_GDP}")
-    print(f"TMBL:{Tongmuc.get_dictionary_TMBL}")
+    print(f"TMBL:{value_TMBL}")
     print(f"FDI_GN: {value_FDI_GN}")
     print(f"FDI_DK: {value_FDI_DK}")
     print(f"TTLK_FDI_GN: {value_TTLK_FDI_GN}")
@@ -251,8 +251,3 @@ else:
 
     for data in list_data:
         insert_data_to_database(data)
-
-
-
-
-
