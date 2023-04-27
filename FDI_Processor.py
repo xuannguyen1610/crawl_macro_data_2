@@ -16,7 +16,7 @@ def get_value(cell):
 def get_value_FDI_GN():
     header = get_value("B12")
     if header == header_FDI_GN:
-         FDI_GN = get_value("C12")
+         FDI_GN = int(get_value("C12"))
          return FDI_GN
     else:
         return None
@@ -25,7 +25,7 @@ def get_value_FDI_GN():
 def get_value_FDI_DK():
     header = get_value("B28")
     if header == header_FDI_DK:
-         FDI_DK = get_value("C28")
+         FDI_DK = int(get_value("C28"))
          return FDI_DK
     else:
         return None
