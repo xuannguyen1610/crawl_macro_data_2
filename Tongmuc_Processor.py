@@ -23,7 +23,7 @@ def get_value_TMBL(index):
     return value
 
 
-def dictionary_TMBL():
+def get_dictionary_TMBL():
     TMBL = {}
     TMBL["TMBL_TT"] = get_value_TMBL(0)
     TMBL["TMBL_BLHH"] = get_value_TMBL(1)
