@@ -1,8 +1,8 @@
 from ExcelUtil import load_sheet_from_file, get_data_from_sheet
 from ValueConverter import convert_value_file_TCTK
 
-input_file = r"C:\Users\Admin\Downloads\Macro_data\02-Bieu-T3.2023-1.xlsx"
-sheet_name = "7.IIP"
+input_file = r"C:\Users\Admin\Downloads\Macro_data\T4_2023\02.-Bieu-T4.2023-1.xlsx"
+sheet_name = "2.IIP"
 header_TN = "Toàn ngành công nghiệp"
 header_CNCBCT = "Công nghiệp chế biến, chế tạo"
 

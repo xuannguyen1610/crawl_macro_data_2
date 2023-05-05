@@ -1,8 +1,8 @@
 from ExcelUtil import load_sheet_from_file, get_data_from_sheet, get_range_from_sheet
 from ValueConverter import convert_value_file_TCTK
 
-input_file = r"C:\Users\Admin\Downloads\Macro_data\02-Bieu-T3.2023-1.xlsx"
-sheet_name = "20. Tongmuc"
+input_file = r"C:\Users\Admin\Downloads\Macro_data\T4_2023\02.-Bieu-T4.2023-1.xlsx"
+sheet_name = "13. Tongmuc"
 header_TM = "TỔNG SỐ"
 
 sheet = load_sheet_from_file(input_file,sheet_name)

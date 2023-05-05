@@ -1,8 +1,8 @@
 from ExcelUtil import load_sheet_from_file, get_data_from_sheet, get_range_from_sheet
 from ValueConverter import convert_value_file_TCTK, calculate_cpi_category
 
-input_file = r"C:\Users\Admin\Downloads\Macro_data\02-Bieu-T3.2023-1.xlsx"
-sheet_name = "24.CPI"
+input_file = r"C:\Users\Admin\Downloads\Macro_data\T4_2023\02.-Bieu-T4.2023-1.xlsx"
+sheet_name = "16.CPI"
 header_CPI = "CHỈ SỐ GIÁ TIÊU DÙNG"
 header_CPI_NH = "Hàng ăn và dịch vụ ăn uống"
 

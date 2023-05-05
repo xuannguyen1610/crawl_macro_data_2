@@ -1,6 +1,6 @@
 from ExcelUtil import load_sheet_from_file, get_data_from_sheet
 
-input_file = r"C:\Users\Admin\Downloads\Macro_data\t3_2023.xlsx"
+input_file = r"C:\Users\Admin\Downloads\Macro_data\T3_2023\t3_2023.xlsx"
 sheet_name = "Chỉ số thương mại"
 header_XK = "Giá trị xuất khẩu"
 header_NK = "Giá trị nhập khẩu"
