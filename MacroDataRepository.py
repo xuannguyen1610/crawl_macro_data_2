@@ -1,10 +1,10 @@
 import mysql.connector
 
 mydb = mysql.connector.connect(
-    host="139.59.101.51",
-    user="xuanprovjp",
-    password="AWX03kgd1QjMTSgZsUBAxxz1QDw",
-    database="stock"
+    host="",
+    user="",
+    password="",
+    database=""
 )
 
 
